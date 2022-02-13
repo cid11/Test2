@@ -66,3 +66,18 @@ WCCILpmon    (1), 2022.02.13 09:22:24.513, SYS,  INFO,       13/pmon, Completely
 WCCILpmon    (1), 2022.02.13 09:22:33.300, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
 WCCILpmon    (1), 2022.02.13 09:22:33.303, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
 WCCILpmon    (1), 2022.02.13 09:22:33.306, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.02.13 09:53:04.572, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2022.02.13 09:53:04.711, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TEST3.16 -pmonIndex 1 
+WCCILpmon    (1), 2022.02.13 09:53:06.159, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TEST3.16 -pmonIndex 2 -num 0
+WCCILpmon    (1), 2022.02.13 09:53:06.392, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TEST3.16 -pmonIndex 3 -num 1
+WCCILpmon    (1), 2022.02.13 09:53:06.626, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TEST3.16 -pmonIndex 4 -num 2
+WCCILpmon    (1), 2022.02.13 09:53:06.863, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TEST3.16 -pmonIndex 5 -num 3
+WCCILpmon    (1), 2022.02.13 09:53:07.210, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TEST3.16 -pmonIndex 6 -num 4
+WCCILpmon    (1), 2022.02.13 09:53:07.552, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TEST3.16 -pmonIndex 7 -num 5
+WCCILpmon    (1), 2022.02.13 09:53:09.973, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2022.02.13 09:53:09.988, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TEST3.16 -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2022.02.13 09:53:10.774, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TEST3.16 -pmonIndex 8 
+WCCILpmon    (1), 2022.02.13 09:53:11.368, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TEST3.16 -pmonIndex 9 
+WCCILpmon    (1), 2022.02.13 09:53:22.365, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TEST3.16 -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2022.02.13 09:53:22.708, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TEST3.16 -pmonIndex 11 
+WCCILpmon    (1), 2022.02.13 09:53:23.043, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode

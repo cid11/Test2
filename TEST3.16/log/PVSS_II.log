@@ -538,3 +538,164 @@ WCCILpmon    (1), 2022.02.13 09:22:24.513, SYS,  INFO,       13/pmon, Completely
 WCCILpmon    (1), 2022.02.13 09:22:33.300, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
 WCCILpmon    (1), 2022.02.13 09:22:33.303, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
 WCCILpmon    (1), 2022.02.13 09:22:33.306, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.02.13 09:53:04.572, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2022.02.13 09:53:04.711, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TEST3.16 -pmonIndex 1 
+WCCILdata    (0), 2022.02.13 09:53:04.867, SYS,  INFO,        1, Manager Start, PROJ, TEST3.16, V 3.16 - 3.16   platform Windows AMD64 linked at Feb 24 2020 13:28:09 (41a21fb4906)
+WCCILdata    (0), 2022.02.13 09:53:04.876, SYS,  INFO,        0, , (Re)Opening databases in single user mode without transaction logging.
+WCCILdata    (0), 2022.02.13 09:53:05.903, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2022.02.13 09:53:05.909, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2022.02.13 09:53:05.911, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2022.02.13 09:53:05.969, SYS,  INFO,        0, , Initializing last value cache
+WCCILdata    (0), 2022.02.13 09:53:06.039, SYS,  INFO,        0, , Loading internal datapoints
+WCCILdata    (0), 2022.02.13 09:53:06.042, SYS,  INFO,        0, , Initializing ID history
+WCCILdata    (0), 2022.02.13 09:53:06.044, SYS,  INFO,        0, , Initializing Alert history
+WCCILdata    (0), 2022.02.13 09:53:06.059, SYS,  INFO,        0, , Initializing Alert Class cache
+WCCILdata    (0), 2022.02.13 09:53:06.068, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.02.13 09:53:06.118, SYS,  INFO,        0, , Initializing Value Archives
+WCCILdata    (0), 2022.02.13 09:53:06.124, SYS,  INFO,        0, , ValueArchive will be used...
+WCCILpmon    (1), 2022.02.13 09:53:06.159, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TEST3.16 -pmonIndex 2 -num 0
+WCCOAvalarch (0), 2022.02.13 09:53:06.269, SYS,  INFO,        1, Manager Start, PROJ, TEST3.16, V 3.16 - 3.16   platform Windows AMD64 linked at Feb 24 2020 13:28:09 (41a21fb4906)
+WCCOAvalarch (0), 2022.02.13 09:53:06.279, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (0), 2022.02.13 09:53:06.282, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILdata    (0), 2022.02.13 09:53:06.286, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 2 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILdata    (0), 2022.02.13 09:53:06.288, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 0
+WCCILdata    (0), 2022.02.13 09:53:06.292, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 2 CONN: 1) initialised
+WCCILpmon    (1), 2022.02.13 09:53:06.392, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TEST3.16 -pmonIndex 3 -num 1
+WCCOAvalarch (1), 2022.02.13 09:53:06.498, SYS,  INFO,        1, Manager Start, PROJ, TEST3.16, V 3.16 - 3.16   platform Windows AMD64 linked at Feb 24 2020 13:28:09 (41a21fb4906)
+WCCOAvalarch (1), 2022.02.13 09:53:06.508, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (1), 2022.02.13 09:53:06.512, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILdata    (0), 2022.02.13 09:53:06.515, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 3 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILdata    (0), 2022.02.13 09:53:06.517, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 1
+WCCILdata    (0), 2022.02.13 09:53:06.526, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 3 CONN: 1) initialised
+WCCILpmon    (1), 2022.02.13 09:53:06.626, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TEST3.16 -pmonIndex 4 -num 2
+WCCOAvalarch (2), 2022.02.13 09:53:06.736, SYS,  INFO,        1, Manager Start, PROJ, TEST3.16, V 3.16 - 3.16   platform Windows AMD64 linked at Feb 24 2020 13:28:09 (41a21fb4906)
+WCCOAvalarch (2), 2022.02.13 09:53:06.746, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (2), 2022.02.13 09:53:06.750, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILdata    (0), 2022.02.13 09:53:06.752, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 4 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILdata    (0), 2022.02.13 09:53:06.755, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 2
+WCCILdata    (0), 2022.02.13 09:53:06.757, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 4 CONN: 1) initialised
+WCCILpmon    (1), 2022.02.13 09:53:06.863, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TEST3.16 -pmonIndex 5 -num 3
+WCCOAvalarch (3), 2022.02.13 09:53:06.981, SYS,  INFO,        1, Manager Start, PROJ, TEST3.16, V 3.16 - 3.16   platform Windows AMD64 linked at Feb 24 2020 13:28:09 (41a21fb4906)
+WCCOAvalarch (3), 2022.02.13 09:53:06.992, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (3), 2022.02.13 09:53:06.996, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILdata    (0), 2022.02.13 09:53:06.998, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 5 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILdata    (0), 2022.02.13 09:53:07.001, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 3
+WCCILdata    (0), 2022.02.13 09:53:07.004, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 5 CONN: 1) initialised
+WCCILpmon    (1), 2022.02.13 09:53:07.210, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TEST3.16 -pmonIndex 6 -num 4
+WCCOAvalarch (4), 2022.02.13 09:53:07.331, SYS,  INFO,        1, Manager Start, PROJ, TEST3.16, V 3.16 - 3.16   platform Windows AMD64 linked at Feb 24 2020 13:28:09 (41a21fb4906)
+WCCOAvalarch (4), 2022.02.13 09:53:07.341, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (4), 2022.02.13 09:53:07.345, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILdata    (0), 2022.02.13 09:53:07.347, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 6 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILdata    (0), 2022.02.13 09:53:07.350, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 4
+WCCILdata    (0), 2022.02.13 09:53:07.356, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 6 CONN: 1) initialised
+WCCILpmon    (1), 2022.02.13 09:53:07.552, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TEST3.16 -pmonIndex 7 -num 5
+WCCOAvalarch (5), 2022.02.13 09:53:07.666, SYS,  INFO,        1, Manager Start, PROJ, TEST3.16, V 3.16 - 3.16   platform Windows AMD64 linked at Feb 24 2020 13:28:09 (41a21fb4906)
+WCCOAvalarch (5), 2022.02.13 09:53:07.688, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (5), 2022.02.13 09:53:07.691, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILdata    (0), 2022.02.13 09:53:07.694, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 7 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILdata    (0), 2022.02.13 09:53:07.697, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 5
+WCCILdata    (0), 2022.02.13 09:53:07.714, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 7 CONN: 1) initialised
+WCCOAvalarch (0), 2022.02.13 09:53:09.331, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.02.13 09:53:09.344, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (1), 2022.02.13 09:53:09.547, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.02.13 09:53:09.578, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (2), 2022.02.13 09:53:09.795, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.02.13 09:53:09.811, SYS,  INFO,        0, , Sending initial values to archive
+WCCILpmon    (1), 2022.02.13 09:53:09.973, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2022.02.13 09:53:09.988, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TEST3.16 -pmonIndex 12 -m gedi
+WCCOAvalarch (3), 2022.02.13 09:53:10.030, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.02.13 09:53:10.046, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (0), 2022.02.13 09:53:10.345, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (4), 2022.02.13 09:53:10.375, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.02.13 09:53:10.406, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (1), 2022.02.13 09:53:10.564, SYS,  INFO,        0, , Ready for operation.
+WCCOAui      (0), 2022.02.13 09:53:10.645, SYS,  INFO,        1, Manager Start, PROJ, TEST3.16, V 3.16 - 3.16   platform Windows AMD64 linked at Feb 24 2020 13:28:09 (41a21fb4906)
+WCCOAvalarch (5), 2022.02.13 09:53:10.719, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2022.02.13 09:53:10.735, SYS,  INFO,        0, , Sending initial values to archive
+WCCILpmon    (1), 2022.02.13 09:53:10.774, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TEST3.16 -pmonIndex 8 
+WCCOAvalarch (2), 2022.02.13 09:53:10.815, SYS,  INFO,        0, , Ready for operation.
+WCCILevent   (0), 2022.02.13 09:53:10.909, SYS,  INFO,        1, Manager Start, PROJ, TEST3.16, V 3.16 - 3.16   platform Windows AMD64 linked at Feb 24 2020 13:28:09 (41a21fb4906)
+WCCILevent   (0), 2022.02.13 09:53:10.971, SYS,  INFO,      108, License information, Host information
+Hostname:   DESKTOP-D5C9R5L
+HW-code:    53756838759
+HW-version: 31600002
+
+WCCILevent   (0), 2022.02.13 09:53:10.975, SYS,  SEVERE,    105, Invalid license, DESKTOP-D5C9R5L: No license found
+WCCILevent   (0), 2022.02.13 09:53:11.040, SYS,  INFO,      108, License information, Using license file C:\Siemens\Automation\WinCC_OA\3.16\shield
+
+WCCOAvalarch (3), 2022.02.13 09:53:11.061, SYS,  INFO,        0, , Ready for operation.
+WCCILevent   (0), 2022.02.13 09:53:11.083, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILevent   (0), 2022.02.13 09:53:11.087, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILdata    (0), 2022.02.13 09:53:11.090, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILevent   (0), 2022.02.13 09:53:11.109, SYS,  SEVERE,    105, Invalid license, DESKTOP-D5C9R5L: No license found
+WCCILdata    (0), 2022.02.13 09:53:11.259, SYS,  INFO,        0, , Manager (SYS: 1 Event -num 0 CONN: 1) initialised
+WCCILevent   (0), 2022.02.13 09:53:11.262, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILevent   (0), 2022.02.13 09:53:11.265, SYS,  INFO,      169, Initialize 72 dp-functions
+WCCILevent   (0), 2022.02.13 09:53:11.299, SYS,  INFO,      168, Initialize 105 alerts
+WCCILevent   (0), 2022.02.13 09:53:11.303, SYS,  SEVERE,    105, Invalid license, Eventmanager will shutdown after the demo period of 1800 seconds
+WCCILevent   (0), 2022.02.13 09:53:11.348, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2022.02.13 09:53:11.368, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TEST3.16 -pmonIndex 9 
+WCCOAvalarch (4), 2022.02.13 09:53:11.393, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (5), 2022.02.13 09:53:11.728, SYS,  INFO,        0, , Ready for operation.
+WCCOAui      (0), 2022.02.13 09:53:17.042, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAui      (0), 2022.02.13 09:53:17.048, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILdata    (0), 2022.02.13 09:53:17.105, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILdata    (0), 2022.02.13 09:53:17.117, SYS,  INFO,        0, , Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2022.02.13 09:53:17.123, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (1), 2022.02.13 09:53:17.128, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOAui      (1), 2022.02.13 09:53:17.133, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILevent   (0), 2022.02.13 09:53:17.185, SYS,  WARNING,   105, Invalid license, DESKTOP-D5C9R5L: No license found, Running as demo version, ui
+WCCILevent   (0), 2022.02.13 09:53:17.188, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCOAui      (1), 2022.02.13 09:53:17.191, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (1), 2022.02.13 09:53:17.195, SYS,  INFO,      103, User names/passwords initialized
+WCCOAui      (1), 2022.02.13 09:53:18.952, SYS,  INFO,        0, , CtrlRDBArchive, Using DP element names for ReadRequests is enabled
+WCCILproxy   (1), 2022.02.13 09:53:22.280, SYS,  INFO,      220, Multiplexing proxy Start, PROJ, TEST3.16, V 3.16 - 3.16   platform Windows AMD64 linked at Feb 24 2020 13:28:09 (41a21fb4906)
+WCCILproxy   (1), 2022.02.13 09:53:22.290, SYS,  INFO,        0, , Can maintain up to 4088 concurrent connections
+WCCILpmon    (1), 2022.02.13 09:53:22.365, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TEST3.16 -pmonIndex 10 -f pvss_scripts.lst
+WCCOActrl    (0), 2022.02.13 09:53:22.492, SYS,  INFO,        1, Manager Start, PROJ, TEST3.16, V 3.16 - 3.16   platform Windows AMD64 linked at Feb 24 2020 13:28:09 (41a21fb4906)
+WCCOActrl    (0), 2022.02.13 09:53:22.499, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (0), 2022.02.13 09:53:22.503, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILdata    (0), 2022.02.13 09:53:22.507, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILdata    (0), 2022.02.13 09:53:22.511, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2022.02.13 09:53:22.518, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (1), 2022.02.13 09:53:22.520, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (1), 2022.02.13 09:53:22.523, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILevent   (0), 2022.02.13 09:53:22.526, SYS,  WARNING,   105, Invalid license, DESKTOP-D5C9R5L: No license found, Running as demo version, ctrl
+WCCILevent   (0), 2022.02.13 09:53:22.529, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCOActrl    (1), 2022.02.13 09:53:22.532, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (1), 2022.02.13 09:53:22.535, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2022.02.13 09:53:22.708, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TEST3.16 -pmonIndex 11 
+WCCOActrl    (1), 2022.02.13 09:53:22.714, CTRL, INFO,        0, , DB Version Update, 3.16 DB version 11, nothing to do
+WCCOActrl    (1), 2022.02.13 09:53:22.754, PARAM,INFO,        0, , Automatic online backup configured with default settings. Backup target directory: C:/Siemens/Automation/WinCC_OA/GIT3.16SCADA/TEST3.16/data/OnlineBackup/
+WCCILsim     (1), 2022.02.13 09:53:22.831, SYS,  INFO,        1, Manager Start, PROJ, TEST3.16, V 3.16 - 3.16   platform Windows AMD64 linked at Feb 24 2020 13:28:09 (41a21fb4906)
+WCCILsim     (1), 2022.02.13 09:53:22.837, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILsim     (1), 2022.02.13 09:53:22.841, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILdata    (0), 2022.02.13 09:53:22.844, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILdata    (0), 2022.02.13 09:53:22.863, SYS,  INFO,        0, , Manager (SYS: 1 Driver -num 1 CONN: 1) initialised
+WCCILsim     (1), 2022.02.13 09:53:22.866, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILsim     (1), 2022.02.13 09:53:22.868, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILsim     (1), 2022.02.13 09:53:22.871, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILevent   (0), 2022.02.13 09:53:22.874, SYS,  WARNING,   105, Invalid license, DESKTOP-D5C9R5L: No license found, Running as demo version, driver
+WCCILevent   (0), 2022.02.13 09:53:22.877, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILsim     (1), 2022.02.13 09:53:22.881, SYS,  SEVERE,    105, Invalid license, Driver will shutdown after the demo period of 1800 seconds
+WCCILsim     (1), 2022.02.13 09:53:22.883, SYS,  INFO,      156, Driver initialization finished.
+WCCILpmon    (1), 2022.02.13 09:53:23.043, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCOActrl    (1), 2022.02.13 09:53:53.734, CTRL, INFO,        0, , Cyclic updateUserGroups running every 60 minutes.
+WCCILdata    (0), 2022.02.13 09:54:23.140, SYS,  INFO,        0, , Closing databases...
+WCCILdata    (0), 2022.02.13 09:54:23.142, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2022.02.13 09:54:23.175, SYS,  INFO,        0, , Databases closed.
+WCCILdata    (0), 2022.02.13 09:54:23.177, SYS,  INFO,        0, , Opening databases...
+WCCILdata    (0), 2022.02.13 09:54:23.179, SYS,  INFO,        0, , (Re)Opening databases in multi user mode without transaction logging.
+WCCILdata    (0), 2022.02.13 09:54:24.194, SYS,  INFO,        0, , Databases opened.
+WCCILdata    (0), 2022.02.13 09:54:24.196, SYS,  INFO,        0, , Restoring last value cache...
+WCCILdata    (0), 2022.02.13 09:54:24.198, SYS,  INFO,        0, , Refreshing value DB list...
+WCCILdata    (0), 2022.02.13 09:54:24.202, SYS,  INFO,        0, , Refreshing alert DB list...
+WCCILdata    (0), 2022.02.13 09:54:24.206, SYS,  INFO,        0, , Reopening database done.
+WCCILdata    (0), 2022.02.13 09:54:24.209, SYS,  INFO,        0, , DataManager, startBgMgr, (Re)starting WCCILdatabg
+WCCILdatabg  (1), 2022.02.13 09:54:24.480, SYS,  INFO,        1, Manager Start, PROJ, TEST3.16, V 3.16 - 3.16   platform Windows AMD64 linked at Feb 24 2020 13:28:09 (41a21fb4906)
+WCCILdatabg  (1), 2022.02.13 09:54:24.488, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILdatabg  (1), 2022.02.13 09:54:24.491, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILdata    (0), 2022.02.13 09:54:24.494, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 1 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILdata    (0), 2022.02.13 09:54:24.499, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 1 CONN: 1) initialised
+WCCILdatabg  (1), 2022.02.13 09:54:25.002, SYS,  INFO,        0, , DataBgDpIntern, openDatabases, Databases opened.
+WCCILdatabg  (1), 2022.02.13 09:54:25.005, SYS,  INFO,        6, Initialization by Data Manager finished
