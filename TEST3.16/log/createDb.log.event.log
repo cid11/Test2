@@ -1,0 +1,90 @@
+WCCILevent   (0), 2022.02.13 00:42:07.307, SYS,  INFO,        1, Manager Start, PROJ, TEST3.16, V 3.16 - 3.16   platform Windows AMD64 linked at Feb 24 2020 13:28:09 (41a21fb4906)
+WCCILevent   (0), 2022.02.13 00:42:07.370, SYS,  INFO,      108, License information, Host information
+Hostname:   DESKTOP-D5C9R5L
+HW-code:    53756838759
+HW-version: 31600002
+
+WCCILevent   (0), 2022.02.13 00:42:07.372, SYS,  SEVERE,    105, Invalid license, DESKTOP-D5C9R5L: No license found
+WCCILevent   (0), 2022.02.13 00:42:07.421, SYS,  INFO,      108, License information, Using license file C:\Siemens\Automation\WinCC_OA\3.16\shield
+
+WCCILevent   (0), 2022.02.13 00:42:07.463, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILevent   (0), 2022.02.13 00:42:07.465, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILevent   (0), 2022.02.13 00:42:07.467, PARAM,SEVERE,     71, DP does not exist, _Connections.Event.ManNums:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.467, PARAM,SEVERE,     71, DP does not exist, _Connections.Event.StartTimes:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.467, PARAM,SEVERE,     71, DP does not exist, _Connections.Event.HostNames:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.468, PARAM,SEVERE,     71, DP does not exist, _Connections.Driver.ManNums:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.468, PARAM,SEVERE,     71, DP does not exist, _Connections.Driver.StartTimes:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.468, PARAM,SEVERE,     71, DP does not exist, _Connections.Driver.HostNames:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.468, PARAM,SEVERE,     71, DP does not exist, _Connections.Data.ManNums:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.468, PARAM,SEVERE,     71, DP does not exist, _Connections.Data.StartTimes:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.468, PARAM,SEVERE,     71, DP does not exist, _Connections.Data.HostNames:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.468, PARAM,SEVERE,     71, DP does not exist, _Connections.Ui.ManNums:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.468, PARAM,SEVERE,     71, DP does not exist, _Connections.Ui.StartTimes:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.468, PARAM,SEVERE,     71, DP does not exist, _Connections.Ui.HostNames:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.468, PARAM,SEVERE,     71, DP does not exist, _Connections.Ctrl.ManNums:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.468, PARAM,SEVERE,     71, DP does not exist, _Connections.Ctrl.StartTimes:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.468, PARAM,SEVERE,     71, DP does not exist, _Connections.Ctrl.HostNames:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.468, PARAM,SEVERE,     71, DP does not exist, _Connections.Ascii.ManNums:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.468, PARAM,SEVERE,     71, DP does not exist, _Connections.Ascii.StartTimes:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.468, PARAM,SEVERE,     71, DP does not exist, _Connections.Ascii.HostNames:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.468, PARAM,SEVERE,     71, DP does not exist, _Connections.Api.ManNums:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.468, PARAM,SEVERE,     71, DP does not exist, _Connections.Api.StartTimes:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.468, PARAM,SEVERE,     71, DP does not exist, _Connections.Api.HostNames:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.469, PARAM,SEVERE,     71, DP does not exist, _Connections.Device.ManNums:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.469, PARAM,SEVERE,     71, DP does not exist, _Connections.Device.StartTimes:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.469, PARAM,SEVERE,     71, DP does not exist, _Connections.Device.HostNames:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.469, PARAM,SEVERE,     71, DP does not exist, _Connections.Redu.ManNums:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.469, PARAM,SEVERE,     71, DP does not exist, _Connections.Redu.StartTimes:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.469, PARAM,SEVERE,     71, DP does not exist, _Connections.Redu.HostNames:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.469, PARAM,SEVERE,     71, DP does not exist, _Connections.Report.ManNums:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.469, PARAM,SEVERE,     71, DP does not exist, _Connections.Report.StartTimes:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.469, PARAM,SEVERE,     71, DP does not exist, _Connections.Report.HostNames:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.469, PARAM,SEVERE,     71, DP does not exist, _Connections.Dde.ManNums:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.469, PARAM,SEVERE,     71, DP does not exist, _Connections.Dde.StartTimes:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.469, PARAM,SEVERE,     71, DP does not exist, _Connections.Dde.HostNames:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.469, PARAM,SEVERE,     71, DP does not exist, _Connections.Dist.ManNums:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.469, PARAM,SEVERE,     71, DP does not exist, _Connections.Dist.StartTimes:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.469, PARAM,SEVERE,     71, DP does not exist, _Connections.Dist.HostNames:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.470, SYS,  SEVERE,    105, Invalid license, DESKTOP-D5C9R5L: No license found
+WCCILevent   (0), 2022.02.13 00:42:07.475, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILevent   (0), 2022.02.13 00:42:07.475, SYS,  INFO,      169, Initialize 0 dp-functions
+WCCILevent   (0), 2022.02.13 00:42:07.475, SYS,  INFO,      168, Initialize 0 alerts
+WCCILevent   (0), 2022.02.13 00:42:07.475, PARAM,WARNING,     7, Datapoint does not exist, EvFixedLicenses, EvFixedLicenses, _Event.License.FixedShield
+WCCILevent   (0), 2022.02.13 00:42:07.475, PARAM,WARNING,     7, Datapoint does not exist, UserTable, UserTable, _Users.UserId
+WCCILevent   (0), 2022.02.13 00:42:07.476, PARAM,WARNING,     7, Datapoint does not exist, ManagerTable, ManagerTable, _Managers.Auth.ManType
+WCCILevent   (0), 2022.02.13 00:42:07.476, PARAM,WARNING,     7, Datapoint does not exist, EventManager, doDpConnect, _System.Auth.DpType:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.476, PARAM,WARNING,     7, Datapoint does not exist, EventManager, doDpConnect, _System.Auth.Dp:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.476, PARAM,WARNING,     7, Datapoint does not exist, EventManager, doDpConnect, _System.Auth.DpAuth:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.476, PARAM,WARNING,     7, Datapoint does not exist, EventManager, doDpConnect, _System.Auth.DpAlias:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.476, PARAM,WARNING,     7, Datapoint does not exist, EventManager, dpDpConnect, _Event.ReadLicense
+WCCILevent   (0), 2022.02.13 00:42:07.476, PARAM,WARNING,     8, Element does not exist, EventManager, doDpConnect, _Managers.Exit
+WCCILevent   (0), 2022.02.13 00:42:07.476, PARAM,WARNING,     8, Element does not exist, EventManager, doDpConnect, _Managers.Refresh
+WCCILevent   (0), 2022.02.13 00:42:07.476, PARAM,WARNING,     7, Datapoint does not exist, EventManager, evMain, _Event.License.ExpirationCnt
+WCCILevent   (0), 2022.02.13 00:42:07.476, PARAM,WARNING,     7, Datapoint does not exist, EventManager, evMain, _Event.License.RemainingTime
+WCCILevent   (0), 2022.02.13 00:42:07.476, PARAM,WARNING,     7, Datapoint does not exist, EventManager, evMain, _Event.License.alm.isRTILInvalid:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.476, PARAM,WARNING,     7, Datapoint does not exist, EventManager, evMain, _Event.License.alm.isPVSSInvalid:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.476, PARAM,WARNING,     7, Datapoint does not exist, EventManager, evMain, _Event.License.alm.shield:_original.._value
+WCCILevent   (0), 2022.02.13 00:42:07.476, SYS,  SEVERE,    105, Invalid license, Eventmanager will shutdown after the demo period of 1800 seconds
+WCCILevent   (0), 2022.02.13 00:42:07.753, SYS,  WARNING,   105, Invalid license, DESKTOP-D5C9R5L: No license found, Running as demo version, driver
+WCCILevent   (0), 2022.02.13 00:42:07.754, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILevent   (0), 2022.02.13 00:42:07.756, PARAM,WARNING,     7, Datapoint does not exist, DP: :_original.._value, MAN: (SYS: 1 Driver -num 1 CONN: 1)
+WCCILevent   (0), 2022.02.13 00:42:07.756, PARAM,WARNING,     7, Datapoint does not exist, DP: :_original.._value, MAN: (SYS: 1 Driver -num 1 CONN: 1)
+WCCILevent   (0), 2022.02.13 00:42:07.756, PARAM,WARNING,     7, Datapoint does not exist, DP: :_original.._value, MAN: (SYS: 1 Driver -num 1 CONN: 1)
+WCCILevent   (0), 2022.02.13 00:42:07.756, PARAM,WARNING,     7, Datapoint does not exist, DP: :_original.._value, MAN: (SYS: 1 Driver -num 1 CONN: 1)
+WCCILevent   (0), 2022.02.13 00:42:08.033, SYS,  WARNING,   105, Invalid license, DESKTOP-D5C9R5L: No license found, Running as demo version, ascii
+WCCILevent   (0), 2022.02.13 00:42:08.033, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILevent   (0), 2022.02.13 00:42:08.351, SYS,  WARNING,    39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection reset by peer (10054)
+WCCILevent   (0), 2022.02.13 00:42:08.505, SYS,  WARNING,   105, Invalid license, DESKTOP-D5C9R5L: No license found, Running as demo version, ascii
+WCCILevent   (0), 2022.02.13 00:42:08.505, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILevent   (0), 2022.02.13 00:42:08.509, SYS,  INFO,        1/event, Received message from MAN: (SYS: 1 Ascii -num 1 CONN: 1) with an ID 3 smaller than the ID 227 of the last received message, assuming manager has been restarted
+WCCILevent   (0), 2022.02.13 00:42:08.830, SYS,  WARNING,    39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection reset by peer (10054)
+WCCILevent   (0), 2022.02.13 00:42:09.010, SYS,  WARNING,   105, Invalid license, DESKTOP-D5C9R5L: No license found, Running as demo version, ascii
+WCCILevent   (0), 2022.02.13 00:42:09.010, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCILevent   (0), 2022.02.13 00:42:09.011, SYS,  INFO,        1/event, Received message from MAN: (SYS: 1 Ascii -num 1 CONN: 1) with an ID 2 smaller than the ID 468 of the last received message, assuming manager has been restarted
+WCCILevent   (0), 2022.02.13 00:42:35.468, SYS,  WARNING,    39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection reset by peer (10054)
+WCCILevent   (0), 2022.02.13 00:42:37.521, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2022.02.13 00:42:37.527, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILevent   (0), 2022.02.13 00:42:37.630, SYS,  INFO,        2, Manager Stop, start cleanup
+WCCILevent   (0), 2022.02.13 00:42:37.630, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILevent   (0), 2022.02.13 00:42:37.630, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2022.02.13 00:42:37.637, SYS,  INFO,        2, Manager Stop

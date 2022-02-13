@@ -1,0 +1,8 @@
+WCCOAascii   (0), 2022.02.13 09:05:53.370, SYS,  INFO,        1, Manager Start, PROJ, TEST3.16, V 3.16 - 3.16   platform Windows AMD64 linked at Feb 24 2020 13:28:09 (41a21fb4906)
+WCCOAascii   (0), 2022.02.13 09:05:53.371, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-D5C9R5L:4897
+WCCOAascii   (0), 2022.02.13 09:05:53.373, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCOAascii   (1), 2022.02.13 09:05:53.384, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAascii   (1), 2022.02.13 09:05:53.384, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-D5C9R5L:4998
+WCCOAascii   (1), 2022.02.13 09:05:53.385, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-D5C9R5L (::1)
+WCCOAascii   (1), 2022.02.13 09:05:53.392, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAascii   (1), 2022.02.13 09:05:53.395, SYS,  INFO,      103, User names/passwords initialized

@@ -1,0 +1,36 @@
+WCCILpmon    (1), 2022.02.13 09:05:31.005, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2022.02.13 09:05:31.151, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILdata.exe -PROJ TEST3.16 -pmonIndex 1 
+WCCILpmon    (1), 2022.02.13 09:05:32.708, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TEST3.16 -pmonIndex 2 -num 0
+WCCILpmon    (1), 2022.02.13 09:05:33.059, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TEST3.16 -pmonIndex 3 -num 1
+WCCILpmon    (1), 2022.02.13 09:05:33.401, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TEST3.16 -pmonIndex 4 -num 2
+WCCILpmon    (1), 2022.02.13 09:05:33.637, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TEST3.16 -pmonIndex 5 -num 3
+WCCILpmon    (1), 2022.02.13 09:05:33.872, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TEST3.16 -pmonIndex 6 -num 4
+WCCILpmon    (1), 2022.02.13 09:05:34.226, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAvalarch.exe -PROJ TEST3.16 -pmonIndex 7 -num 5
+WCCILpmon    (1), 2022.02.13 09:05:37.596, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILevent.exe -PROJ TEST3.16 -pmonIndex 8 
+WCCILpmon    (1), 2022.02.13 09:05:38.234, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILproxy.exe -PROJ TEST3.16 -pmonIndex 9 
+WCCILpmon    (1), 2022.02.13 09:05:49.688, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOActrl.exe -PROJ TEST3.16 -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2022.02.13 09:05:50.034, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCILsim.exe -PROJ TEST3.16 -pmonIndex 11 
+WCCILpmon    (1), 2022.02.13 09:05:50.371, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.16\bin\WCCOAui.exe -PROJ TEST3.16 -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2022.02.13 09:05:52.340, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2022.02.13 09:06:25.078, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2022.02.13 09:06:25.081, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2022.02.13 09:06:25.086, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2022.02.13 09:06:25.090, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2022.02.13 09:06:25.094, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2022.02.13 09:06:25.097, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2022.02.13 09:06:25.101, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2022.02.13 09:06:25.105, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2022.02.13 09:06:25.108, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2022.02.13 09:06:31.303, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2022.02.13 09:06:31.411, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2022.02.13 09:06:34.454, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2022.02.13 09:06:34.890, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2022.02.13 09:06:45.309, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2022.02.13 09:06:45.313, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2022.02.13 09:06:58.652, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2022.02.13 09:06:58.655, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2022.02.13 09:06:58.658, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.02.13 09:09:11.160, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2022.02.13 09:09:36.468, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2022.02.13 09:09:36.472, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2022.02.13 09:09:36.476, SYS,  INFO,        2, Manager Stop

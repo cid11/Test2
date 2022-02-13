@@ -1,0 +1,5 @@
+[general]
+pvss_path = "C:/Siemens/Automation/WinCC_OA/3.16"
+proj_path = "C:/Siemens/Automation/WinCC_OA/GIT3.16SCADA/TEST3.16"
+proj_version = "3.16"
+langs = "en_US.utf8"
