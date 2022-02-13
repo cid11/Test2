@@ -699,3 +699,93 @@ WCCILdata    (0), 2022.02.13 09:54:24.494, SYS,  INFO,        4, Connected to (S
 WCCILdata    (0), 2022.02.13 09:54:24.499, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 1 CONN: 1) initialised
 WCCILdatabg  (1), 2022.02.13 09:54:25.002, SYS,  INFO,        0, , DataBgDpIntern, openDatabases, Databases opened.
 WCCILdatabg  (1), 2022.02.13 09:54:25.005, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILpmon    (1), 2022.02.13 10:04:02.175, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2022.02.13 10:04:02.180, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCOAui      (1), 2022.02.13 10:04:02.184, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2022.02.13 10:04:02.184, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILsim     (1), 2022.02.13 10:04:02.189, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2022.02.13 10:04:02.189, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCOActrl    (1), 2022.02.13 10:04:02.191, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2022.02.13 10:04:02.191, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2022.02.13 10:04:02.196, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2022.02.13 10:04:02.200, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2022.02.13 10:04:02.204, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2022.02.13 10:04:02.208, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2022.02.13 10:04:02.213, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCOAui      (1), 2022.02.13 10:04:02.340, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAui      (1), 2022.02.13 10:04:02.342, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2022.02.13 10:04:02.342, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2022.02.13 10:04:02.344, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2022.02.13 10:04:02.346, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2022.02.13 10:04:02.348, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAui      (1), 2022.02.13 10:04:02.460, SYS,  INFO,        2, Manager Stop
+WCCILsim     (1), 2022.02.13 10:04:04.246, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.02.13 10:04:04.248, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2022.02.13 10:04:04.250, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILsim     (1), 2022.02.13 10:04:04.252, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2022.02.13 10:04:04.254, SYS,  INFO,        2, Manager Stop
+WCCOActrl    (1), 2022.02.13 10:04:04.354, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOActrl    (1), 2022.02.13 10:04:04.356, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2022.02.13 10:04:04.356, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2022.02.13 10:04:04.358, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2022.02.13 10:04:04.360, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2022.02.13 10:04:04.362, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (1), 2022.02.13 10:04:04.365, SYS,  SEVERE,     54, Unexpected state, CtrlMgr, doConnectionClose, Lost Connection to Event Manager, exiting ...
+WCCOActrl    (1), 2022.02.13 10:04:04.379, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (4), 2022.02.13 10:04:08.264, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (1), 2022.02.13 10:04:08.264, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.02.13 10:04:08.269, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 3 CONN: 1), Connection closed
+WCCILdata    (0), 2022.02.13 10:04:08.271, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:1
+WCCOAvalarch (1), 2022.02.13 10:04:08.271, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOAvalarch (1), 2022.02.13 10:04:08.274, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.02.13 10:04:08.274, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 6 CONN: 1), Connection closed
+WCCOAvalarch (1), 2022.02.13 10:04:08.275, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2022.02.13 10:04:08.275, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:4
+WCCOAvalarch (4), 2022.02.13 10:04:08.275, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOAvalarch (4), 2022.02.13 10:04:08.277, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (4), 2022.02.13 10:04:08.280, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (3), 2022.02.13 10:04:08.280, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (5), 2022.02.13 10:04:08.280, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.02.13 10:04:08.283, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 4 CONN: 1), Connection closed
+WCCOAvalarch (2), 2022.02.13 10:04:08.285, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+
+WCCOAvalarch (2), 2022.02.13 10:04:08.288, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+ 1), Connection closed
+WCCILdata    (0), 2022.02.13 10:04:08.290, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:3WCCOAvalarch (2), 2022.02.13 10:04:08.290, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (3), 2022.02.13 10:04:08.292, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.02.13 10:04:08.292, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 7 CONN: 1), Connection closed
+WCCOAvalarch (5), 2022.02.13 10:04:08.294, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+
+WCCOAvalarch (0), 2022.02.13 10:04:08.295, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (5), 2022.02.13 10:04:08.297, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.02.13 10:04:08.300, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 2 CONN: 1), Connection closed
+WCCOAvalarch (0), 2022.02.13 10:04:08.302, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+
+WCCOAvalarch (0), 2022.02.13 10:04:08.304, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (0), 2022.02.13 10:04:08.307, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.02.13 10:04:08.328, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILevent   (0), 2022.02.13 10:04:08.332, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILevent   (0), 2022.02.13 10:04:08.421, SYS,  INFO,        2, Manager Stop, start cleanup
+WCCILevent   (0), 2022.02.13 10:04:08.423, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2022.02.13 10:04:08.425, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2022.02.13 10:04:08.427, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2022.02.13 10:04:08.435, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.02.13 10:04:08.547, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILdata    (0), 2022.02.13 10:04:09.431, SYS,  INFO,        0, , DataManager, stopBgMgr, Stopping WCCILdatabg
+WCCILdata    (0), 2022.02.13 10:04:09.433, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 1 CONN: 1)
+WCCILdatabg  (1), 2022.02.13 10:04:09.435, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILdatabg  (1), 2022.02.13 10:04:09.437, SYS,  SEVERE,     39, Connection lost, (SYS: 1 Data -num 0 CONN: 1), exiting ...
+WCCILdata    (0), 2022.02.13 10:04:09.437, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 1 CONN: 1), Connection closed
+WCCILdata    (0), 2022.02.13 10:04:09.439, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCILdata    (0), 2022.02.13 10:04:09.442, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCILdatabg  (1), 2022.02.13 10:04:11.448, SYS,  INFO,        0, , DataBgDpIntern, closeDatabases, Databases closed.
+WCCILdatabg  (1), 2022.02.13 10:04:11.450, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2022.02.13 10:04:13.468, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2022.02.13 10:04:13.483, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2022.02.13 10:04:13.530, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILproxy   (1), 2022.02.13 10:04:13.534, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILproxy   (1), 2022.02.13 10:04:13.607, SYS,  INFO,      221, Multiplexing proxy Stop
+WCCILpmon    (1), 2022.02.13 10:04:13.640, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2022.02.13 10:04:25.265, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2022.02.13 10:04:25.269, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2022.02.13 10:04:25.272, SYS,  INFO,        2, Manager Stop
